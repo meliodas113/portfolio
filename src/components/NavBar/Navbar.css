@@ -1,0 +1,120 @@
+@font-face {
+  font-family: "PoppinsBlack";
+  src: url("../../fonts/Poppins/Poppins-Light.woff");
+}
+
+@font-face {
+  font-family: "PoppinsBold";
+  src: url("../../fonts/Poppins/Poppins-Bold.woff");
+}
+
+@font-face {
+  font-family: "PoppinsEBold";
+  src: url("../../fonts/Poppins/Poppins-ExtraBold.woff");
+}
+.Navbar {
+  width: 6%;
+  height: 100%;
+}
+
+.Navbar .NameCircle {
+  width: 100%;
+  height: 12%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Navbar .NameCircle .Name {
+  background: url("../NavBar/logo.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+}
+
+.Navbar .Navlinks {
+  width: 100%;
+  height: 88%;
+  font-size: 1.2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Navbar > .Navlinks .link:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background-color: #ff5e73;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.Navbar .Navlinks .link:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  animation: fill 0.2s ease 0.3s 1 forwards;
+  -webkit-animation: fill 0.2s ease 0.3s 1 forwards;
+}
+
+@keyframes fill {
+  0% {
+    height: 2px;
+  }
+  100% {
+    height: 100%;
+  }
+}
+
+.Navbar .Navlinks .link {
+  transform: rotate(-90deg);
+  font-family: "PoppinsBold";
+  font-size: 0.9em;
+  cursor: pointer;
+  padding: 2px;
+  transition: all 0.1s ease-in-out;
+  padding: 3% 10% 3% 10%;
+}
+
+.Navbar .Navlinks .link:hover {
+  color: white;
+}
+
+@media (min-width: 1500px) and (max-width: 2000px) {
+  .Navbar .NameCircle .Name {
+    width: 80px;
+    height: 80px;
+  }
+
+  .Navbar .Navlinks .link {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1800px) {
+  .Navbar .NameCircle .Name {
+    width: 80px;
+    height: 80px;
+  }
+
+  .Navbar .Navlinks .link {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 270px) and (max-width: 700px) {
+  .Navbar {
+    display: none;
+  }
+}
