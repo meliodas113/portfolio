@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.05feb0ff.chunk.css",
+    "main.js": "/portfolio/static/js/main.8f557adf.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.8f557adf.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.b654f092.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.b654f092.js.map",
+    "static/js/2.f3853c04.chunk.js": "/portfolio/static/js/2.f3853c04.chunk.js",
+    "static/js/2.f3853c04.chunk.js.map": "/portfolio/static/js/2.f3853c04.chunk.js.map",
+    "static/js/3.48e6d11e.chunk.js": "/portfolio/static/js/3.48e6d11e.chunk.js",
+    "static/js/3.48e6d11e.chunk.js.map": "/portfolio/static/js/3.48e6d11e.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.05feb0ff.chunk.css.map": "/portfolio/static/css/main.05feb0ff.chunk.css.map",
+    "static/js/2.f3853c04.chunk.js.LICENSE.txt": "/portfolio/static/js/2.f3853c04.chunk.js.LICENSE.txt",
+    "static/media/Work.css": "/portfolio/static/media/Poppins-Light.1de12340.woff",
+    "static/media/About.css": "/portfolio/static/media/light-bulb.89778192.png",
+    "static/media/Sidebar.css": "/portfolio/static/media/logo.845ed4d0.png",
+    "static/media/Contact.css": "/portfolio/static/media/logo.bbda6845.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b654f092.js",
+    "static/js/2.f3853c04.chunk.js",
+    "static/css/main.05feb0ff.chunk.css",
+    "static/js/main.8f557adf.chunk.js"
+  ]
+}
