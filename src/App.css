@@ -9,10 +9,6 @@ body {
   display: flex;
 }
 
-@viewport {
-  zoom: 1;
-  width: extend-to-zoom;
-}
 ::-moz-selection {
   background: #d31d35;
 }
