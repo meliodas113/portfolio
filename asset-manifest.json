@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.81b2210f.chunk.css",
+    "main.css": "/static/css/main.c4fe79e6.chunk.css",
     "main.js": "/static/js/main.8f557adf.chunk.js",
     "main.js.map": "/static/js/main.8f557adf.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.79354ff5.js",
@@ -10,7 +10,7 @@
     "static/js/3.48e6d11e.chunk.js": "/static/js/3.48e6d11e.chunk.js",
     "static/js/3.48e6d11e.chunk.js.map": "/static/js/3.48e6d11e.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.81b2210f.chunk.css.map": "/static/css/main.81b2210f.chunk.css.map",
+    "static/css/main.c4fe79e6.chunk.css.map": "/static/css/main.c4fe79e6.chunk.css.map",
     "static/js/2.0e2524e9.chunk.js.LICENSE.txt": "/static/js/2.0e2524e9.chunk.js.LICENSE.txt",
     "static/media/Work.css": "/static/media/Poppins-Light.1de12340.woff",
     "static/media/About.css": "/static/media/light-bulb.89778192.png",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.79354ff5.js",
     "static/js/2.0e2524e9.chunk.js",
-    "static/css/main.81b2210f.chunk.css",
+    "static/css/main.c4fe79e6.chunk.css",
     "static/js/main.8f557adf.chunk.js"
   ]
 }
