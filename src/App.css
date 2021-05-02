@@ -23,3 +23,12 @@ body {
   zoom: 1;
   width: extend-to-zoom;
 }
+::-moz-selection {
+  background: #d31d35;
+}
+::-webkit-selection {
+  background: #d31d35;
+}
+::selection {
+  background: #d31d35;
+}
