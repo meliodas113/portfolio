@@ -226,6 +226,7 @@
   }
   .wrapper .section .FormDiv .form .text-area {
     width: 100%;
+    font-size: 1em;
   }
   .wrapper .section .contactMessage {
     font-size: 1em;
@@ -280,6 +281,7 @@
   }
   .wrapper .section .FormDiv .form .text-area {
     width: 100%;
+    font-size: 1em;
   }
   .wrapper .section .FormDiv .form .inputContainer .error {
     font-size: 0.7em;
