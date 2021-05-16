@@ -1,15 +1,24 @@
 import "./App.css";
-import Navbar from "./components/NavBar/Navbar";
-import Home from "./screens/Home/Home";
-import About from "./screens/About/About";
-import React, { useState, useEffect } from "react";
+// import Navbar from "./components/NavBar/Navbar";
+// import Home from "./screens/Home/Home";
+// import About from "./screens/About/About";
+import React, { useState, lazy, useEffect } from "react";
 import { AnimatePresence } from "framer-motion";
 import { Switch, Route } from "react-router-dom";
-import Experience from "./screens/Experince/Experience";
-import Loader from "./components/Loader/Loader";
-import Work from "./screens/Work/Work";
-import Sidebar from "./components/Sidebar/Sidebar";
-import Contact from "./screens/Contact/Contact";
+// import Experience from "./screens/Experince/Experience";
+// import Loader from "./components/Loader/Loader";
+// import Work from "./screens/Work/Work";
+// import Sidebar from "./components/Sidebar/Sidebar";
+// import Contact from "./screens/Contact/Contact";
+const Home = lazy(() => import("./screens/Home/Home"));
+const About = lazy(() => import("./screens/About/About"));
+const Navbar = lazy(() => import("./components/NavBar/Navbar"));
+const Experience = lazy(() => import("./screens/Experince/Experience"));
+const Loader = lazy(() => import("./components/Loader/Loader"));
+const Work = lazy(() => import("./screens/Work/Work"));
+const Sidebar = lazy(() => import("./components/Sidebar/Sidebar"));
+const Contact = lazy(() => import("./screens/Contact/Contact"));
+// const renderText = () => <p></p>;
 
 function App() {
   const [loading, setLoading] = useState(true);
