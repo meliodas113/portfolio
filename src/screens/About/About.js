@@ -90,7 +90,7 @@ export default class About extends Component {
             <span className="skill">JavaScript(ES6)</span>
             <span className="skill">HTML5</span>
             <span className="skill">CSS3/SASS</span>
-            <span className="skill">C</span>
+            <span className="skill">C/C++</span>
             <span className="skill">Java</span>
           </motion.div>
           <motion.div
@@ -105,6 +105,7 @@ export default class About extends Component {
             <span className="skill">React Native</span>
             <span className="skill">NodeJS</span>
             <span className="skill">ExpressJS</span>
+            <span className="skill">NextJS</span>
             <span className="skill">Redux</span>
           </motion.div>{" "}
           <motion.div
