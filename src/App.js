@@ -10,6 +10,7 @@ const Loader = lazy(() => import("./components/Loader/Loader"));
 const Work = lazy(() => import("./screens/Work/Work"));
 const Sidebar = lazy(() => import("./components/Sidebar/Sidebar"));
 const Contact = lazy(() => import("./screens/Contact/Contact"));
+//
 
 function App() {
   const [loading, setLoading] = useState(true);
