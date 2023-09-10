@@ -1,16 +1,16 @@
 @font-face {
-  font-family: "PoppinsBlack";
-  src: url("../../fonts/Poppins/Poppins-Light.woff");
+  font-family: 'PoppinsBlack';
+  src: url('../../fonts/Poppins/Poppins-Light.woff');
 }
 
 @font-face {
-  font-family: "PoppinsBold";
-  src: url("../../fonts/Poppins/Poppins-Bold.woff");
+  font-family: 'PoppinsBold';
+  src: url('../../fonts/Poppins/Poppins-Bold.woff');
 }
 
 @font-face {
-  font-family: "PoppinsEBold";
-  src: url("../../fonts/Poppins/Poppins-ExtraBold.woff");
+  font-family: 'PoppinsEBold';
+  src: url('../../fonts/Poppins/Poppins-ExtraBold.woff');
 }
 .Experience {
   width: 94%;
@@ -27,7 +27,7 @@
 }
 
 .Experience .headerDiv .headerText {
-  font-family: "PoppinsBold";
+  font-family: 'PoppinsBold';
   font-size: 2.5vw;
   color: rgba(56, 54, 54, 0.993);
   font-weight: bold;
@@ -62,7 +62,7 @@
 
 .Experience .container .work .workType .workHeading {
   color: rgba(56, 54, 54, 0.993);
-  font-family: "PoppinsBlack";
+  font-family: 'PoppinsBlack';
   font-size: 1.7vw;
 }
 
@@ -111,14 +111,14 @@
 
 .Experience .container .work .workContainer .workexp .expdetails .expDate {
   width: 80%;
-  font-family: "PoppinsBlack";
+  font-family: 'PoppinsBlack';
   font-weight: bold;
   font-size: 0.9vw;
 }
 
 .Experience .container .work .workContainer .workexp .expdetails .expinfo {
   width: 80%;
-  font-family: "PoppinsBlack";
+  font-family: 'PoppinsBlack';
   font-size: 0.8vw;
   height: 70%;
 }
@@ -177,7 +177,7 @@
   }
   .Experience .container .work .workType .workHeading {
     color: rgba(56, 54, 54, 0.993);
-    font-family: "PoppinsBlack";
+    font-family: 'PoppinsBlack';
     font-size: 1.5em;
   }
   .Experience .container .work .workContainer .workexp .expheading {
@@ -185,8 +185,8 @@
   }
   .Experience .container .work .workContainer .workexp .expdetails .expinfo {
     width: 95%;
-    font-family: "PoppinsBlack";
-    font-size: 0.7em;
+    font-family: 'PoppinsBlack';
+    font-size: 0.65em;
   }
   .Experience .container .work .workContainer .workexp .expdetails .expDate {
     font-size: 0.6em;
@@ -234,7 +234,7 @@
   }
   .Experience .container .work .workContainer .workexp .expdetails .expinfo {
     width: 95%;
-    font-size: 0.65em;
+    font-size: 0.5em;
   }
   .Experience .container .work .workContainer .workexp .expdetails .expDate {
     font-size: 0.65em;

@@ -1,40 +1,30 @@
-import React, { useState, useEffect } from "react";
-import { ImHome } from "react-icons/im";
-import { BsFillInfoSquareFill } from "react-icons/bs";
-import { FaTrophy, FaCode } from "react-icons/fa";
-import { RiContactsBookFill } from "react-icons/ri";
-import { useHistory, useLocation } from "react-router-dom";
-
-import "./Sidebar.css";
+import React, { useState, useEffect } from 'react';
+import { ImHome } from 'react-icons/im';
+import { BsFillInfoSquareFill } from 'react-icons/bs';
+import { FaTrophy,FaCode } from 'react-icons/fa';
+import { RiContactsBookFill } from 'react-icons/ri';
+import { useHistory, useLocation } from 'react-router-dom';
+import './Sidebar.css';
 
 export default function Sidebar() {
   const [openNav, setOpenNav] = useState(false);
 
   useEffect(() => {
     if (openNav) {
-      document.body.style.overflow = "hidden";
+      document.body.style.overflow = 'hidden';
     } else {
-      document.body.style.overflow = "scroll";
+      document.body.style.overflow = 'scroll';
     }
   }, [openNav]);
 
   const history = useHistory();
   const location = useLocation();
-  const handleRoute = page => {
+  const handleRoute = (page) => {
     setOpenNav(false);
     if (location.pathname === page) {
       return;
-    } else if (page === "about") {
-      history.push("/about");
-    } else if (page === "home") {
-      history.push("/");
-    } else if (page === "experience") {
-      history.push("/experience");
-    } else if (page === "work") {
-      history.push("/work");
-    } else if (page === "contact") {
-      history.push("/contact");
     }
+    history.push('/' + page);
   };
 
   const openNavHandler = () => {
@@ -47,33 +37,33 @@ export default function Sidebar() {
 
   return (
     <div>
-      <div className="hamBurger" onClick={openNavHandler}>
-        <span style={{ marginBottom: "1px" }}></span>
+      <div className='hamBurger' onClick={openNavHandler}>
+        <span style={{ marginBottom: '1px' }}></span>
         <span></span>
-        <span style={{ marginTop: "1px" }}></span>
+        <span style={{ marginTop: '1px' }}></span>
       </div>
       <div
-        className={openNav ? "blurDivOpen" : "blurDiv"}
+        className={openNav ? 'blurDivOpen' : 'blurDiv'}
         onClick={closeNav}
       ></div>
-      <div className={openNav ? "sideMenueOpen" : "sideMenue"}>
-        <div className="logoDiv">
-          <div className="logo"></div>
+      <div className={openNav ? 'sideMenueOpen' : 'sideMenue'}>
+        <div className='logoDiv'>
+          <div className='logo'></div>
         </div>
-        <div className="linkSec" style={{ height: "85%" }}>
-          <span className="sideLink" onClick={() => handleRoute("home")}>
+        <div className='linkSec' style={{ height: '85%' }}>
+          <span className='sideLink' onClick={() => handleRoute('home')}>
             <ImHome />
           </span>
-          <span className="sideLink" onClick={() => handleRoute("about")}>
+          <span className='sideLink' onClick={() => handleRoute('about')}>
             <BsFillInfoSquareFill />
-          </span>{" "}
-          <span className="sideLink" onClick={() => handleRoute("experience")}>
+          </span>{' '}
+          <span className='sideLink' onClick={() => handleRoute('experience')}>
             <FaTrophy />
-          </span>{" "}
+          </span>{' '}
           <span className="sideLink" onClick={() => handleRoute("work")}>
             <FaCode />
           </span>
-          <span className="sideLink" onClick={() => handleRoute("contact")}>
+          <span className='sideLink' onClick={() => handleRoute('contact')}>
             <RiContactsBookFill />
           </span>
         </div>

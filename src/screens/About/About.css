@@ -1,22 +1,22 @@
 @font-face {
-  font-family: "PoppinsBlack";
-  src: url("../../fonts/Poppins/Poppins-Light.woff");
+  font-family: 'PoppinsBlack';
+  src: url('../../fonts/Poppins/Poppins-Light.woff');
 }
 
 @font-face {
-  font-family: "PoppinsBold";
-  src: url("../../fonts/Poppins/Poppins-Bold.woff");
+  font-family: 'PoppinsBold';
+  src: url('../../fonts/Poppins/Poppins-Bold.woff');
 }
 
 @font-face {
-  font-family: "PoppinsEBold";
-  src: url("../../fonts/Poppins/Poppins-ExtraBold.woff");
+  font-family: 'PoppinsEBold';
+  src: url('../../fonts/Poppins/Poppins-ExtraBold.woff');
 }
 
 .About {
   width: 94%;
   height: 100%;
-  background: url("./light-bulb.png");
+  background: url('./light-bulb.png');
   background-repeat: no-repeat;
   background-position: 100% 100%;
   background-color: #f6f7f8;
@@ -39,7 +39,7 @@
 }
 
 .About .headerDiv .headerText {
-  font-family: "PoppinsBold";
+  font-family: 'PoppinsBold';
   font-size: 2.5vw;
   color: rgba(56, 54, 54, 0.993);
   font-weight: bold;
@@ -49,7 +49,7 @@
   width: 35%;
   height: 80%;
   border-radius: 10px;
-  background-image: url("https://aterdent.sirv.com/Images/about.png");
+  background-image: url('./about.png');
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -71,7 +71,7 @@
 .About .AboutDiv .contentDiv .contentHeading {
   width: 80%;
   color: white;
-  font-family: "PoppinsBold";
+  font-family: 'PoppinsBold';
   font-size: 1.6vw;
   font-weight: bold;
 }
@@ -79,13 +79,13 @@
 .About .AboutDiv .contentDiv .maintext {
   width: 85%;
   color: white;
-  font-family: "PoppinsBlack";
+  font-family: 'PoppinsBlack';
   font-size: 0.79vw;
 }
 
 .About .AboutDiv .contentDiv .btnDiv {
   color: #ff5e73;
-  font-family: "PoppinsBlack";
+  font-family: 'PoppinsBlack';
   font-size: 0.92vw;
   background-color: white;
   width: 35%;
@@ -143,12 +143,12 @@
   color: rgba(56, 54, 54, 0.993);
   font-weight: bold;
   font-size: 1vw;
-  font-family: "PoppinsBlack";
+  font-family: 'PoppinsBlack';
 }
 
 .About .skillsDiv .skillSec .skill {
   margin-top: 3%;
-  font-family: "PoppinsBlack";
+  font-family: 'PoppinsBlack';
   font-size: 0.9vw;
 }
 
