@@ -52,6 +52,18 @@ export default function Work() {
         'Framer motion',
       ],
     },
+    {
+      name: 'Kalam-Labs',
+      url: process.env.PUBLIC_URL + '/Assets/kalam.png',
+      liveurl: 'https://kalam-labs.netlify.app/',
+      desc: "Successfully developed Kalam Labs' company website using ReactJS as a freelance project. My commitment to on-time delivery earned commendation.",
+      skills: [
+        'React',
+        'Javascript',
+        'Web development',
+        'Freelance',
+      ],
+    },
   ];
   return (
     <motion.div
