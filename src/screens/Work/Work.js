@@ -18,7 +18,7 @@ export default function Work() {
       url: process.env.PUBLIC_URL + '/Assets/zenith.png',
       codeurl: 'https://github.com/meliodas113/zenith',
       liveurl: 'https://zenith-services.netlify.app/',
-      desc: "Designed and developed 'Zenith,' an e-commerce website using React and Starpi. Zenith provides users with an intuitive interface for browsing and exploring products in an engaging online shopping environment.",
+      desc: "Designed and developed 'Zenith,' an e-commerce website using React and Strapi. Zenith provides users with an intuitive interface for browsing and exploring products in an engaging online shopping environment.",
       skills: [
         'React',
         'Javascript',
