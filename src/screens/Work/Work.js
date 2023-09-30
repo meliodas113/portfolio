@@ -21,11 +21,35 @@ export default function Work() {
       desc: "Designed and developed 'Zenith,' an e-commerce website using React and Starpi. Zenith provides users with an intuitive interface for browsing and exploring products in an engaging online shopping environment.",
       skills: [
         'React',
-        'Strapi',
         'Javascript',
         'Web Development',
-        'Context',
+        'Context API',
         'SCSS',
+      ],
+    },
+    {
+      name: 'Qtrip',
+      url: process.env.PUBLIC_URL + '/Assets/qtrip.png',
+      liveurl: 'https://qtrip-dynamic-anupam.netlify.app/',
+      desc: "Build a responsive website called QTrip, an AirBnB-like travel planning website. Built this project to revise my HTML,CSS and VanillaJS concepts.",
+      skills: [
+        'HTML5',
+        'CSS3',
+        'Bootstrap',
+        'Web Development',
+      ],
+    },
+    {
+      name: 'eezql',
+      url: process.env.PUBLIC_URL + '/Assets/eezql.png',
+      codeurl: 'https://github.com/meliodas113/eezql',
+      liveurl: 'https://eezql.netlify.app/',
+      desc: "Designed and developed 'eezql, a ReactJS and Framer Motion-driven static website. It elegantly represents an online SQL query generator with a focus on its static nature, currently supporting .csv file functionality.",
+      skills: [
+        'React',
+        'Javascript',
+        'Redux',
+        'Framer motion',
       ],
     },
   ];
@@ -46,21 +70,22 @@ export default function Work() {
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.2 * (i + 1) }}
             className='project'
-          >
-            <div
-              className='projectPic'
-              style={{ backgroundImage: `url(${item.url})` }}
-            ></div>
+          > 
+          <img className='projectImage' src={item.url} alt={item.name}/>
             <div className='projectName'>
               <span className='projecttitle'>{item.name}</span>
-              <a
-                rel='noreferrer'
-                href={item.codeurl}
-                target='_blank'
-                className='redirectLink'
-              >
-                <FaGithub />
-              </a>
+              {
+                item.codeurl && (
+                  <a
+                  rel='noreferrer'
+                  href={item.codeurl}
+                  target='_blank'
+                  className='redirectLink'
+                >
+                  <FaGithub />
+                </a>
+                )
+              }
               {item.liveurl && (
                 <a
                   rel='noreferrer'
