@@ -28,6 +28,17 @@ export default function Work() {
       ],
     },
     {
+      name: 'Scrubmail',
+      url: process.env.PUBLIC_URL + '/Assets/scrubmail.png',
+      codeurl: 'https://github.com/meliodas113/srcubmail',
+      desc: "Created the ScrubMail Chrome extension, which offers dual functionality - seamless email address extraction from web pages and an integrated ad-blocker for a cleaner browsing experience.",
+      skills: [
+        'HTML5',
+        'CSS3',
+        'Web Development',
+      ],
+    },
+    {
       name: 'Qtrip',
       url: process.env.PUBLIC_URL + '/Assets/qtrip.png',
       liveurl: 'https://qtrip-dynamic-anupam.netlify.app/',
