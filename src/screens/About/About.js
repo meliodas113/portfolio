@@ -62,7 +62,7 @@ export default class About extends Component {
             >
               <MdFileDownload className='downloadIcon' />
               <a
-                href='https://drive.google.com/file/d/1qkUhd1UK4p9qqQtGMMRCDFI_0CjJa5QC/view?usp=sharing'
+                href='https://drive.google.com/file/d/1N9_ORp9ES8y1bvvpXBH3-p-VXjZ4sEnQ/view'
                 target='_blank'
                 rel='noreferrer'
                 style={{ color: '#ff5e73', textDecoration: 'none' }}
